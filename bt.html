@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap&subset=vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="bt.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="jnt.js" defer></script>
+
+</head>
+<body>
+    <div class="class">
+        <header class="header">
+            <div class="grid">
+                <nav class="header_navbar">
+                    <ul class="header_navbar-list">
+                        <li class="header_navbar-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="header_navbar-contact">0327195539</div>
+                        </li>
+                        <li class="header_navbar-item">
+                            <i class="fa-regular fa-envelope"></i>
+                            <div class="header_navbar-contact">Contact@gmail.com</div>
+                        </li>
+                    </ul>
+                    <ul class="header_navbar-list">
+                        <li  class="header_navbar-item">
+                            <a href="#" class="header_navbar-facebook">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+                        <li  class="header_navbar-item ">
+                            <a href="#"class="header_navbar-instra">
+                                <i class="fa-brands fa-instagram"></i>                               
+                                    <span>Instragram</span>
+                            </a>
+                        </li>
+                        <li class="header_navbar-sepa"></li>
+                        <li class="header_navbar-item">
+                            <div class="header_navbar-login">
+                                <i class="fa-solid fa-lock"></i>
+                                <a href="#">Login</a>
+                            </div>
+                        </li>
+                        <li class="header_navbar-item">
+                            <div class="header_navbar-regis">
+                                <i class="fa-solid fa-user"></i>
+                                <a href="#">Register</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="header_navbar-function">
+                    <ul class="header_navbar-item">
+                        <li class="header_navbar-item">
+                            <a href="http://127.0.0.1:5500/bt/bt.html" class="header_navbar-logo">
+                                <img src="img/detailed-travel-logo_23-2148627268.avif" class="logo-img">
+                                <span style="font-size: 2.4rem;">Travel Tour</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header_navbar-item header_navbar-item-funtion">
+                        <li class="header_navbar-item header_navbar-item-home">
+                            <a href="#home" class="home " id="active">Trang Chủ</a>
+                        </li>
+                        <li class="header_navbar-item header_navbar-item-home ">
+                            <a href="#region" class="home home-fun">Vùng Miền</a>
+                        </li>
+                        <li class="header_navbar-item header_navbar-item-home">
+                            <a href="#destination " class="home home-fun">Địa Điểm</a>
+                        </li>
+                        <li class="header_navbar-item header_navbar-item-home">
+                            <a href="#booking" class="home ">Đặt Chỗ</a>
+                        </li>
+                        <div class="bottom"></div>
+                    </ul>
+                    <ul class="header_navbar-item header_navbar-search">
+                            <input type="text" class="header__search-input" placeholder="Tìm Kiếm">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                    </ul>
+
+
+                </nav>
+            </div>
+        </header>
+            <section id="home">
+                <div class="banner">
+                    <!-- Slideshow container -->
+                    <div class="slideshow-container">
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                            <img src="img/2S_Stitch.jpg" style="width:1500px;height:600px;">
+                        </div>
+                    
+                        <div class="mySlides fade">
+                            <img src="img/shutterstock1169930359-1593591-8866-7555-1593591174.jpg" style="width:1500px;height:600px;">
+                        </div>
+                        <div class="mySlides fade">
+                            <img src="img/cau-rong-da-nang.jpg" style="width:1500px;height:600px;">
+                        </div>                       
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </section>
+                
+        <section id="region">
+            <div class="app-region">
+                <div class="grid">
+                    <h1>Vùng Miền</h1>
+                    <div class="home-filter">
+                        <div class="grid__row">
+                            <div class="grid__column-4">
+                                <div class="tour-item">
+                                    <img src="https://dulichsapa.org.vn/wp-content/uploads/leo-dinh-fansipan-1.png" class="tour-item__img-4">
+                                    <h4 class="region-name">Miền Bắc</h4>
+                                </div>
+                            </div>
+
+                            <div class="grid__column-4">
+                                <div class="tour-item">
+                                    <img src="https://file.hstatic.net/1000184601/article/dia-diem-du-lich-mien-nam_340b0f9d5723483db226b570b75f7aaa.png" class="tour-item__img-4">
+                                    <h4 class="region-name-1">Miền Nam</h4>
+                                </div>
+                            </div>
+
+                            <div class="grid__column-4">
+                                <div class="tour-item">
+                                    <img src="https://ik.imagekit.io/tvlk/blog/2023/03/du-lich-mien-trung-11.jpg?tr=dpr-2,w-675" class="tour-item__img-4">
+                                    <h4 class="region-name-2">Miền Trung</h4>
+                                </div>
+                            </div>
+
+                            <div class="grid__column-4">
+                                <div class="tour-item">
+                                    <img src="https://zoomtravel.vn/upload/images/kon-chu-rang-0.jpg" class="tour-item__img-4">
+                                    <h4 class="region-name-3">Tây Nguyên</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="destination">
+        <div class="app-copntainer">
+            <div class="grid">
+                <h1 >Địa Điểm Tiêu Biểu</h1>
+                    <p style="text-align: center;font-size: 1.6rem;color: rgb(248, 0, 0);">Nhấp vào ảnh để xem thông tin chi tiết</p>
+                        <div class="home-filter">
+                            <div class="grid__row">
+                                <a href="destination/hanoi.html">
+                                <div class="grid__column-6">
+                                    <div class="tour-item">
+                                        <img src="https://inkythuatso.com/uploads/thumbnails/800/2023/03/1-hinh-anh-lang-bac-ho-inkythuatso-04-11-23-13.jpg" class="tour-item__img-6">
+                                        <h4 class="tour-name">Hà Nội</h4>
+                                        <div class="tour-content-6" > 
+                                            <h4>Hà Nội</h4>     
+                                            <p>Hà Nội, thủ đô của Việt Nam, là một thành phố giàu truyền thống lịch sử và văn hóa. Nằm 
+                                                bên bờ sông Hồng,Hà Nội không chỉ là trung tâm chính trị mà còn là trung tâm kinh tế, 
+                                                văn hóa và giáo dục lớn của cả nước.Thành phố này nổi tiếng với sự pha trộn hài hòa
+                                                giữa nét cổ kính và hiện đại, tạo nên bản sắc độc đáo.Khu Phố Cổ Hà Nội, với lịch sử 
+                                                hơn 1.000 năm, là nơi du khách có thể cảm nhận nhịp sống sôi động nhưng cũng rất đỗi 
+                                                yên bình. Những ngôi nhà ống cổ kính, các cửa hàng nhỏ và quán ăn vỉa hè là những hình 
+                                                ảnh đặc trưng của Hà Nội.Hà Nội còn nổi tiếng với các di tích lịch sử và văn hóa như 
+                                                Hồ Hoàn Kiếm, đền Ngọc Sơn, Văn Miếu - Quốc Tử Giám, và Lăng Chủ tịch Hồ Chí Minh. Hồ 
+                                                Hoàn Kiếm, nằm ở trung tâm thành phố, là trái tim của Hà Nội, nơi người dân thường dạo 
+                                                chơi và thư giãn.Thành phố cũng được biết đến với nền ẩm thực phong phú, từ phở, bún 
+                                                chả, đến các món ăn đường phố. Hà Nội là sự kết hợp hài hòa giữa cổ kính và hiện đại,
+                                                thu hút hàng triệu du khách mỗi năm.
+                                            </p>                                      
+                                        </div>
+                                    </div>
+                                </div>
+                                </a>                               
+
+                                <div class="grid__column-3">
+                                    <div class="tour-item">
+                                        <img src="img/check-in-hue-1.jpg" class="tour-item__img">
+                                        <h4 class="tour-name__3">Huế</h4>
+                                        <div class="tour-content" > 
+                                            <h4>Huế</h4>     
+                                            <p>Huế, thành phố nằm ở miền Trung Việt Nam, từng là kinh đô của triều đại nhà Nguyễn từ 
+                                                thế kỷ 19 đến đầu thế kỷ 20. Huế nổi tiếng với quần thể di tích cố đô Huế, bao gồm Hoàng
+                                                thành, các lăng tẩm của các vị vua Nguyễn, và chùa Thiên Mụ. Thành phố còn hấp dẫn du
+                                                khách với sông Hương thơ mộng, nét đẹp thanh bình và nền ẩm thực phong phú với các món
+                                                ăn cung đình đặc sắc. Huế là nơi lưu giữ nhiều giá trị văn hóa và lịch sử quan trọng
+                                                của Việt Nam.
+                                            </p>                                      
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
+                        </div>
+                        <div class="home-filter">
+
+                            <div class="grid__row">
+                                <div class="grid__column-3">
+                                    <div class="tour-item">
+                                        <img src="img/tp.hcm.jpg" class="tour-item__img">
+                                        <h4 class="tour-name__4">TP. Hồ Chí Minh</h4>
+                                        <div class="tour-content" > 
+                                            <h4>TP. Hồ Chí Minh</h4>     
+                                            <p>Thành phố Hồ Chí Minh, thường được gọi là Sài Gòn, là thành phố lớn nhất và trung tâm
+                                                kinh tế của Việt Nam. Nằm ở miền Nam Việt Nam, TP.HCM là một đô thị sôi động với sự 
+                                                pha trộn độc đáo giữa kiến trúc hiện đại và di sản văn hóa. Thành phố này nổi tiếng 
+                                                với cuộc sống về đêm sôi động, ẩm thực đa dạng và những điểm tham quan lịch sử như 
+                                                Dinh Độc Lập và Nhà thờ Đức Bà.Đồng thời, TP.HCM còn là trung tâm công nghệ, giáo dục 
+                                                và thương mại quan trọng của cả nước.
+                                            </p>                                      
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-3">
+                                    <div class="tour-item">
+                                        <img src="img/canh-dep-da-lat-1.webp" class="tour-item__img">
+                                        <h4 class="tour-name__2">Đà Lạt</h4>
+                                        <div class="tour-content" > 
+                                            <h4>Đà Lạt</h4>     
+                                            <p>Đà Lạt là một thành phố cao nguyên nằm ở tỉnh Lâm Đồng, miền Nam Việt Nam.
+                                                 Nổi tiếng với khí hậu mát mẻ quanh năm, Đà Lạt được ví như "thành phố ngàn hoa"
+                                                  với nhiều loài hoa đẹp và cảnh quan thiên nhiên thơ mộng. Thành phố này còn được 
+                                                  biết đến với những ngôi biệt thự cổ kính, hồ Xuân Hương, thung lũng Tình Yêu, và 
+                                                  các rừng thông bạt ngàn. Đà Lạt là điểm đến lý tưởng cho những ai muốn tìm kiếm sự 
+                                                  yên bình và tận hưởng không gian lãng mạn, nhẹ nhàng. Ngoài ra, Đà Lạt cũng nổi bật
+                                                  với các món ăn đặc sản như bánh căn, bánh tráng nướng, và dâu tây tươi ngon.
+                                            </p>                                      
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="grid__column-3">
+                                    <div class="tour-item ">
+                                        <img src="img/cau-vang-da-nang-13.webp" class="tour-item__img tour-item__img-DN ">
+                                        <h4 class="tour-name__1 ">Đà Nẵng</h4>
+                                        <div class="tour-content tour-item__img-DN" > 
+                                            <h4>Đà Nẵng</h4>     
+                                            <p>Đà Nẵng là một thành phố ven biển miền Trung Việt Nam, nổi tiếng với cảnh quan
+                                               thiên nhiên tuyệt đẹp.Nơi này là trung tâm kinh tế và du lịch 
+                                               phát triển, với cơ sở hạ tầng hiện đại và nhiều điểm tham quan văn hóa, 
+                                               lịch sử. Đây cũng được biết đến với ẩm thực phong phú và là một
+                                               trong những thành phố đáng sống nhất Việt Nam
+                                            </p>                                      
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                        </div>
+                        
+                </div>
+            </div>
+        </section>
+
+        <section id="booking">
+            <div class="app-book">
+                <div class="grid">
+                    <h1>Đặt chỗ</h1>
+                    <div class="book-filter">
+                        <div class="grid__row">
+                            <div class="grid__column-9">
+                                <div class="book-item">
+                                    <form>
+                                        <label for="tour">Chọn tour du lịch:</label>
+                                        <select id="tour" class="book-but">
+                                            <option value="hanoi-tour">Tour Hà Nội</option>
+                                            <option value="hue-tour">Tour Huế</option>
+                                            <option value="danang-tour">Tour Đà Nẵng</option>
+                                            <option value="hcmc-tour">Tour TP. Hồ Chí Minh</option>
+                                            <option value="dalat-tour">Tour Đà Lạt</option>
+                                        </select>
+                                        <label for="date">Chọn ngày:</label>
+                                        <input type="date" id="date" class="book-but">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" placeholder="Nhập email của bạn" class="book-but">
+                                        <label for="name">Tên:</label>
+                                        <input type="text" id="name" placeholder="Nhập tên của bạn" class="book-but">
+                                        <button type="submit">Đặt Chỗ</button>
+                                    </form>
+                                </div>                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+        
+</body>
+</html>
